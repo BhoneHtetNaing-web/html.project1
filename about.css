@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    padding: 50px 100px;
+    height: 98vh;
+
+}
+
+
+/* About */
+
+.section-title {
+    
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+img {
+    position: absolute;
+}
+
+.banner-image {
+    width: 50px;
+
+}
+
+.p1, .p2 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+/* Footer */
+
+
+
+.btn:hover {
+    background-color: #43CF30;
+}
+

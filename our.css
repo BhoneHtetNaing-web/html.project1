@@ -1,0 +1,63 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    background-color: black;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    gap: 60px;
+    height: 10vh;
+}
+
+.head-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.banner {
+    width: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    height: 90vh;
+    width: 1000vh;
+    padding: 170px;
+}
+
+.col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    gap: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.card-text {
+    color: blue;
+    font-weight: bold;
+}
+
+.sub-text {
+    color: green;
+    text-decoration: none;
+}
